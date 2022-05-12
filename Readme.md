@@ -1,39 +1,12 @@
     WT CLASS ASSIGMENT AND LAB WORK
     ASSIGMENT 
-    <table>
-    <tbody align="center">
-    <tr>
-    <td>SN</td>
-    <td>ASSIGMENT<td>
-    <td>want to see </td>
-    </tr>
-     <tr>
-    <td>1</td>
-    <td>ASSIGMENT3<td>
-    <td>[index](index.html)</td>
-    </tr>
-    <tr>
-    <td>2</td>
-    <td>ASSIGMENT 4<td>
-    <td>[routine](routine.html)</td>
-    </tr>
-    </table>
+| SN | ASSIGMENT | LINK |
+| 1  | ASSIGMENT3| [index](./Assigment/Assigment%203/index.html) |   |
+| 2  | ASSIGMNT 4|[routine](./Assigment/Assigment%204/routine.html)| 
 
-     <table>
-    <tbody align="center">
-    <tr>
-    <td>SN</td>
-    <td>ASSIGMENT<td>
-    <td>want to see </td>
-    </tr>
-     <tr>
-    <td>1</td>
-    <td>ASSIGMENT3<td>
-    <td>[index](index.html)</td>
-    </tr>
-    <tr>
-    <td>2</td>
-    <td>ASSIGMENT 4<td>
-    <td>[routine](routine.html)</td>
-    </tr>
-    </table>
+
+LAB
+| SN | LAB | LINK |
+| 1  | LAB 1 |[Lab1](./Lab/Lab%201/Lab1.html)|
+| 2  | LAB 2 |[Lab2](./Lab/Lab%202/Lab%202.html)|
+| 3  | LAB 3 |[Lab3](./Lab/Lab%203/Untitled-1.html)|
