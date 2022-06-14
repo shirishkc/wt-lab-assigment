@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROUND AND ROUND</title>
+    <style>
+        .main {
+            height: 40px;
+            width: 80px;
+            text-align: center;
+            padding: 10px 0px 0px;
+            border: green 1px solid;
+            background-color: green;
+            color: white;
+            position: absolute;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        #b2 {
+            left: 100px;
+        }
+        
+        #b3 {
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body class="origin">
+    <div>
+        <div class="main" id="b1">Round</div>
+        <div class="main" id="b2">and</div>
+        <div class="main" id="b3">Round</div>
+    </div>
+
+    <script>
+        const b1 = document.querySelector('#box1');
+        dragElement(b1);
+        const b2 = document.querySelector('#box2');
+        dragElement(b2);
+        const b3 = document.querySelector('#box3');
+        dragElement(b3);
+
+        function dragElement(elmnt) {
+            elmnt.addEventListener('mousedown', mouseDown);
+
+            function mouseDown(e) {
+                e.preventDefault();
+                document.addEventListener('mousemove', mouseMove);
+                document.addEventListener('mouseup', mouseUp);
+            }
+
+            function mouseMove(e) {
+                e.preventDefault();
+                elmnt.style.left = e.clientX + 'px';
+                elmnt.style.top = e.clientY + 'px';
+
+            }
+
+            function mouseUp() {
+                document.removeEventListener('mousemove', mouseMove);
+                document.removeEventListener('mouseup', mouseUp);
+                elmnt.mouseup = null;
+            }
+        }
+    </script>
+</body>
+
+</html>
