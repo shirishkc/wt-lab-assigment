@@ -32,17 +32,17 @@
 
 <body class="origin">
     <div>
-        <div class="main" id="b1">Round</div>
-        <div class="main" id="b2">and</div>
-        <div class="main" id="b3">Round</div>
+        <div class="main" id="b1" style="background-color: red;">Round</div>
+        <div class="main" id="b2" style="background-color: yellow;">and</div>
+        <div class="main" id="b3" style="background-color: burlywood;">Round</div>
     </div>
 
     <script>
-        const b1 = document.querySelector('#box1');
+        const b1 = document.querySelector('#b1');
         dragElement(b1);
-        const b2 = document.querySelector('#box2');
+        const b2 = document.querySelector('#b2');
         dragElement(b2);
-        const b3 = document.querySelector('#box3');
+        const b3 = document.querySelector('#b3');
         dragElement(b3);
 
         function dragElement(elmnt) {
@@ -67,6 +67,7 @@
                 elmnt.mouseup = null;
             }
         }
+        
     </script>
 </body>
 
