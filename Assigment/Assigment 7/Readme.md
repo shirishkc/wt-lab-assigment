@@ -5,7 +5,7 @@ PHP : Hypertext Preprocessor
 
 Is a widely-used, open source scripting language PHP scripts are executed on the server PHP files can contain text, HTML, CSS, JavaScript, and PHP code PHP files have extension ".php"
 
-To setup php u can simply download the <color='blue>XAAMP</color>given in the link below:
+To setup php u can simply download the XAAMP given in the link below:
         https://www.apachefriends.org/download.html
 
 What Can PHP Do?
